@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A premium wedding photography course website for The Business of Photography." />
+    <title>The Business of Wedding Photography</title>
+    <script>
+      const isMobileViewport = window.matchMedia('(max-width: 620px)').matches;
+      const isAndroidMobile = isMobileViewport && /Android/i.test(navigator.userAgent);
+
+      if (isAndroidMobile) {
+        document.documentElement.classList.add('android-mobile');
+      }
+
+      if (isMobileViewport && 'scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+    </script>
+    <link rel="preload" as="image" href="/public/assets/credibility/chivido-hero.jpg" fetchpriority="high" />
+    <link rel="stylesheet" href="./src/styles.css?v=167" />
+  </head>
+  <body>
+    <header class="nav">
+      <a class="logo" href="#home" aria-label="Koppoh">
+        <img loading="eager" decoding="async" fetchpriority="high" src="/public/assets/partners/koppoh-transparent.png" alt="Koppoh" />
+      </a>
+      <nav>
+        <a href="#what-you-get">What You Get</a>
+        <a href="#portfolio">Modules</a>
+        <a href="#pricing">Payment Plan</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-cta" href="#pricing">Get started</a>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-panel">
+        <a href="#what-you-get">What You Get</a>
+        <a href="#portfolio">Modules</a>
+        <a href="#pricing">Payment Plan</a>
+        <a href="#faq">FAQ</a>
+        <a class="mobile-menu-cta" href="#pricing">Get started</a>
+      </div>
+    </div>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-slides" aria-hidden="true">
+          <span class="hero-slide hero-slide-one"></span>
+          <span class="hero-slide hero-slide-two"></span>
+          <span class="hero-slide hero-slide-three"></span>
+          <span class="hero-slide hero-slide-four"></span>
+          <span class="hero-slide hero-slide-five"></span>
+          <span class="hero-slide hero-slide-six"></span>
+        </div>
+        <div class="hero-inner">
+          <h1 class="write-on" data-write="Turn Your Photography Skill Into a Multi-Million Business">Turn Your Photography Skill Into a Multi-Million Business</h1>
+          <p class="hero-sub reveal">Join the Business of Photography by Bedge, an 8-week intensive training that teaches you how to turn your photography skills into a multimillion business.</p>
+          <div class="hero-actions reveal">
+            <a class="button hero-primary" href="#pricing">Join Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="bedge-gallery" aria-label="Bedge selected photography">
+        <div class="gallery-heading reveal">
+          <div>
+            <p>Selected work</p>
+            <h2>Some of Bedge's best frames</h2>
+          </div>
+          <div class="gallery-notes" aria-label="Gallery highlights">
+            <span>Weddings</span>
+            <span>Engagements</span>
+            <span>Love stories</span>
+          </div>
+        </div>
+        <div class="student-strip" aria-label="Bedge photo strip">
+          <div class="strip-track">
+            <article class="student-card cream tilt-card" data-frame="Frame 01">
+              <div class="portrait portrait-davido-chi"></div>
+            </article>
+            <article class="student-card mint tilt-card" data-frame="Frame 02">
+              <div class="portrait portrait-ndidi-one"></div>
+            </article>
+            <article class="student-card peach tilt-card" data-frame="Frame 03">
+              <div class="portrait portrait-desmond"></div>
+            </article>
+            <article class="student-card lemon tilt-card" data-frame="Frame 04">
+              <div class="portrait portrait-test"></div>
+            </article>
+            <article class="student-card mint tilt-card" data-frame="Frame 05">
+              <div class="portrait portrait-ndidi-three"></div>
+            </article>
+            <article class="student-card mint tilt-card" data-frame="Frame 06">
+              <div class="portrait portrait-one"></div>
+            </article>
+            <article class="student-card cream tilt-card" data-frame="Frame 07">
+              <div class="portrait portrait-two"></div>
+            </article>
+            <article class="student-card lemon tilt-card" data-frame="Frame 08">
+              <div class="portrait portrait-three"></div>
+            </article>
+            <article class="student-card peach tilt-card" data-frame="Frame 09">
+              <div class="portrait portrait-four"></div>
+            </article>
+            <article class="student-card mint tilt-card" data-frame="Frame 10">
+              <div class="portrait portrait-five"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="what-you-get" class="intro section">
+        <h2 class="reveal">Everything You Need to Build Your Photography Business in One Programme</h2>
+        <p class="reveal">A complete experience that combines business training, technical support, gear access, and financing everything you need to build a successful business.</p>
+        <div class="benefit-row">
+          <article class="benefit reveal"><div class="benefit-brand"><img loading="eager" decoding="async" fetchpriority="high" src="/public/assets/partners/koppoh-transparent.png" alt="Koppoh" /></div><b>01</b><h3>8-Week Business Masterclass</h3><p>The full business masterclass most photographers never had access to.</p></article>
+          <article class="benefit reveal"><div class="benefit-brand"><img loading="lazy" decoding="async" src="/public/assets/partners/bedge-transparent.png" alt="Bedge Pictures" /></div><b>02</b><h3>Sessions Led by Bedge Pictures</h3><p>Learn from the man who built Africa's most respected wedding photography brand.</p></article>
+          <article class="benefit reveal"><div class="benefit-brand"><img loading="lazy" decoding="async" src="/public/assets/partners/canon-transparent.png" alt="Canon" /></div><b>03</b><h3>Canon Gear at Subsidised Rates</h3><p>Get Canon gears at subsidised rates and a physical Canon-led masterclass on visual storytelling.</p></article>
+          <article class="benefit reveal"><div class="benefit-brand"><img loading="lazy" decoding="async" src="/public/assets/partners/credit-direct-transparent.png" alt="Credit Direct" /></div><b>04</b><h3>Gear Financing Available</h3><p>Financing support is available for getting subsidised Canon-backed gear.</p></article>
+        </div>
+      </section>
+
+      <section id="learn" class="story-scroll">
+        <div class="story-visual-wrap">
+          <div class="story-visual reveal" aria-hidden="true">
+            <img loading="lazy" decoding="async" class="story-image is-active" data-story-image="0" src="/public/assets/story-scroll/01-ifedayo.jpg" alt="" />
+            <img loading="lazy" decoding="async" class="story-image" data-story-image="1" src="/public/assets/story-scroll/02-ndidi.jpg" alt="" />
+            <img loading="lazy" decoding="async" class="story-image" data-story-image="2" src="/public/assets/story-scroll/03-davido-chi.webp" alt="" />
+            <img loading="lazy" decoding="async" class="story-image" data-story-image="3" src="/public/assets/story-scroll/04-technical.webp" alt="" />
+            <img loading="lazy" decoding="async" class="story-image" data-story-image="4" src="/public/assets/credibility/bedge-official-gallery.jpg" alt="" />
+            <span class="story-corner top-right" aria-hidden="true"></span>
+            <span class="story-corner bottom-left" aria-hidden="true"></span>
+          </div>
+        </div>
+
+        <div class="story-copy">
+          <article class="story-panel reveal" id="modules" data-story="0">
+            <img loading="lazy" decoding="async" class="mobile-story-media story-media-foundation" src="/public/assets/story-scroll/01-ifedayo.jpg" alt="" />
+            <p class="micro">More client bookings</p>
+            <h2>Do you want more client bookings?</h2>
+            <p>Many photographers are good with the camera. They know how to shoot, edit, and deliver beautiful work. But what is the point of skill if clients are not booking you?</p>
+            <p>Clients are what separate a photographer from a photography business owner.</p>
+            <p>Inside The Business of Photography, Bedge will show you how he gets booked consistently, how he builds systems that keep clients coming in, and how he makes sure his business does not depend on luck, random referrals, or waiting for people to remember him.</p>
+            <a class="button dark" href="#pricing">Get Started Now <svg viewBox="0 0 25 24" aria-hidden="true"><path d="M5.5 12h13m-5.5-5.5L18.5 12 13 17.5"/></svg></a>
+          </article>
+
+          <article class="story-panel reveal" data-story="1">
+            <img loading="lazy" decoding="async" class="mobile-story-media story-media-clients" src="/public/assets/story-scroll/02-ndidi.jpg" alt="" />
+            <p class="micro">High-quality clients</p>
+            <h2>Are you looking for high-quality clients?</h2>
+            <p>You are not short of clients. You are just short of the right ones. Clients who see your work, understand your value, reach out to you, and are already ready to pay.</p>
+            <p>The photographers who attract those clients did not get lucky. They built a brand that does the convincing before they open their mouth.</p>
+            <p>The Business of Photography teaches you how to become that photographer.</p>
+            <p>You will learn how to position your business, build a sales and marketing engine, and create a brand presence that pulls high-paying clients in without you chasing a single one.</p>
+            <a class="button dark" href="#portfolio">Get Started Now <svg viewBox="0 0 25 24" aria-hidden="true"><path d="M5.5 12h13m-5.5-5.5L18.5 12 13 17.5"/></svg></a>
+          </article>
+
+          <article class="story-panel reveal" data-story="2">
+            <img loading="lazy" decoding="async" class="mobile-story-media story-media-pricing" src="/public/assets/story-scroll/03-davido-chi.webp" alt="" />
+            <p class="micro">Business structure</p>
+            <h2>Want to build a multimillion photography business?</h2>
+            <p>Getting clients is one thing. Building a business that can grow, scale, and run with structure is another.</p>
+            <p>Bedge will open up the business side of photography: pricing, systems, team management, vendor management, client delivery, and the structure behind running a serious photography brand.</p>
+            <p>You will not just learn how to get clients. You will learn how to build the kind of photography business that has process, people, systems, and the capacity to grow beyond only you.</p>
+            <a class="button dark" href="#pricing">Get Started Now <svg viewBox="0 0 25 24" aria-hidden="true"><path d="M5.5 12h13m-5.5-5.5L18.5 12 13 17.5"/></svg></a>
+          </article>
+
+          <article class="story-panel reveal" data-story="3">
+            <img loading="lazy" decoding="async" class="mobile-story-media story-media-systems" src="/public/assets/story-scroll/04-technical.webp" alt="" />
+            <p class="micro">Visual storytelling</p>
+            <h2>Do you want to tell better stories?</h2>
+            <p>Canon will host a physical masterclass on visual storytelling led by an industry expert.</p>
+            <p>This goes beyond camera settings, lenses, and technical handling. You will learn how to use light, composition, direction, emotion, timing, and camera technique to create images that tell stronger stories.</p>
+            <p>Better storytelling helps you create work clients remember. And when your work carries more meaning, your business becomes easier to position, sell, and grow.</p>
+            <a class="button dark" href="#pricing">Get Started Now <svg viewBox="0 0 25 24" aria-hidden="true"><path d="M5.5 12h13m-5.5-5.5L18.5 12 13 17.5"/></svg></a>
+          </article>
+
+          <article class="story-panel reveal" data-story="4">
+            <img loading="lazy" decoding="async" class="mobile-story-media story-media-gear" src="/public/assets/credibility/bedge-official-gallery.jpg" alt="" />
+            <p class="micro">Discounted gear</p>
+            <h2>Do you want discounted gear?</h2>
+            <p>Learning the business is important, but you also need the right tools to do better work.</p>
+            <p>That is why we have partnered with Canon to give BOP students access to subsidised gear for their business, with up to 30% discount.</p>
+            <p>And it does not stop there. Through Credit Direct, students can also access financing support to get the gear they need without paying everything at once.</p>
+            <p>So you are not only learning how to build a multimillion photography business. You are also getting access to the tools that can help you do the work at a higher level.</p>
+            <a class="button dark" href="#pricing">Get Started Now <svg viewBox="0 0 25 24" aria-hidden="true"><path d="M5.5 12h13m-5.5-5.5L18.5 12 13 17.5"/></svg></a>
+          </article>
+        </div>
+      </section>
+
+      <div class="legacy-story" hidden>
+      <section class="split section">
+        <div class="image-stage reveal">
+          <div class="browser-frame">
+            <div class="browser-bar"><i></i><i></i><i></i></div>
+            <div class="gallery-preview">
+              <div></div><div></div><div></div><div></div>
+            </div>
+          </div>
+        </div>
+        <div class="copy reveal">
+          <p class="micro">Course outcome</p>
+          <h2>You shoot weddings for real clients, right?</h2>
+          <p>But worry about missing important moments or dealing with “I thought you would capture this”? With the programme, you can take charge of the wedding day and protect your reputation with a clear creative system.</p>
+          <ul>
+            <li>Build a wedding-day shot rhythm that keeps you calm.</li>
+            <li>Learn client direction scripts for couples and families.</li>
+            <li>Create a consistent editing workflow and delivery process.</li>
+          </ul>
+          <a class="button dark" href="#modules">Get started</a>
+        </div>
+      </section>
+
+      <section class="split split-alt section">
+        <div class="copy reveal">
+          <p class="micro">Social proof system</p>
+          <h2>Running your photography brand on Instagram, WhatsApp, or referrals?</h2>
+          <p>Most bookings start from trust. This course shows you how to turn your galleries, stories, client reactions, and behind-the-scenes work into content that sells without sounding desperate.</p>
+          <ul>
+            <li>Organise your portfolio into proof-led content pillars.</li>
+            <li>Show your process so clients understand your value.</li>
+            <li>Turn wedding galleries into repeatable referral moments.</li>
+          </ul>
+          <a class="button dark" href="#portfolio">Get started</a>
+        </div>
+        <div class="image-stage muted-stage reveal">
+          <div class="phone-frame">
+            <div class="phone-photo p1"></div>
+            <div class="glass-card">Client proof gallery</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="split section">
+        <div class="image-stage muted-stage reveal">
+          <div class="phone-frame">
+            <div class="phone-photo p2"></div>
+            <div class="glass-card tall-card">What would you like to learn?</div>
+          </div>
+        </div>
+        <div class="copy reveal">
+          <p class="micro">Professional services</p>
+          <h2>Do you want to shoot like a trusted wedding professional?</h2>
+          <p>The modules are built around the real pressure of weddings: speed, emotion, family dynamics, light, expectations, and delivery.</p>
+          <ul>
+            <li>Understand how to plan the wedding day visually.</li>
+            <li>Know what to shoot before, during, and after the ceremony.</li>
+            <li>Package your service so clients see the value immediately.</li>
+          </ul>
+          <a class="button dark" href="#pricing">Get started</a>
+        </div>
+      </section>
+
+      <section class="split split-alt section">
+        <div class="copy reveal">
+          <p class="micro">Payment confidence</p>
+          <h2>Want peace of mind when charging for your service?</h2>
+          <p>Pricing is a skill. You will learn how to structure packages, explain your value, handle objections, and build an offer that makes sense for serious clients.</p>
+          <ul>
+            <li>Price based on experience, delivery, and business cost.</li>
+            <li>Build packages that are simple to understand.</li>
+            <li>Stop undercharging for emotional, once-in-a-lifetime work.</li>
+          </ul>
+          <a class="button dark" href="#pricing">Get started</a>
+        </div>
+        <div class="image-stage muted-stage reveal">
+          <div class="phone-frame">
+            <div class="phone-photo p3"></div>
+            <div class="glass-card">Release only when satisfied</div>
+          </div>
+        </div>
+      </section>
+
+      </div>
+
+      <section id="portfolio" class="dark-feature">
+        <div class="dark-title reveal">
+          <p>Programme Modules</p>
+          <span>Move from scattered talent to a structured photography business with lessons on skill, pricing, clients, delivery, and growth.</span>
+        </div>
+        <div class="feature-grid modules-grid">
+          <article class="feature module-card reveal"><b>01</b><h3>Module 1</h3><p>Build your photography business foundation and brand positioning.</p><span>4 lessons</span></article>
+          <article class="feature module-card reveal"><b>02</b><h3>Module 2</h3><p>Price your work, package your offer, and sell with confidence.</p><span>6 lessons</span></article>
+          <article class="feature module-card reveal"><b>03</b><h3>Module 3</h3><p>Master the creative systems behind stronger wedding coverage.</p><span>3 lessons</span></article>
+          <article class="feature module-card reveal"><b>04</b><h3>Module 4</h3><p>Manage clients, timelines, briefs, and delivery like a professional.</p><span>5 lessons</span></article>
+          <article class="feature module-card reveal"><b>05</b><h3>Module 5</h3><p>Use galleries, proof, and testimonials to attract better clients.</p><span>3 lessons</span></article>
+          <article class="feature module-card reveal"><b>06</b><h3>Module 6</h3><p>Plan gear access, financing, and your next stage of growth.</p><span>5 lessons</span></article>
+        </div>
+      </section>
+
+      <section id="pricing" class="pricing-section section">
+        <div class="pricing-heading reveal">
+          <h2>Choose how you want to join the programme.</h2>
+          <span>The full programme fee is &#8358;336,500. We also offer payment support for serious photographers who are ready to build a multimillion photography business.</span>
+        </div>
+        <div class="pricing-includes reveal">
+          <div class="pricing-includes-copy">
+            <h3>Flexible payment structure. Same programme access.</h3>
+          </div>
+          <div class="pricing-benefit-columns">
+            <ul>
+              <li>8 high-value business modules</li>
+              <li>Pre-recorded lessons taught by Bedge</li>
+              <li>Physical Canon-led masterclass</li>
+              <li>Canon gear discount access</li>
+              <li>Up to 30% scholarship available</li>
+            </ul>
+            <ul>
+              <li>Credit Direct financing support</li>
+              <li>Certificate and alumni network</li>
+              <li>Dedicated student support</li>
+              <li>Special appearances from top photographers</li>
+              <li>8 extra live sessions on business structuring</li>
+            </ul>
+          </div>
+          <a href="#portfolio">See programme modules</a>
+        </div>
+        <div class="pricing-grid" aria-label="Payment options">
+          <article class="pricing-card pricing-card-recommended reveal" data-payment-card>
+            <div class="plan-badge">Recommended</div>
+            <div class="pricing-card-top">
+              <p>One-time payment</p>
+              <div class="pricing-price-row">
+                <h3>&#8358;336,500</h3>
+              </div>
+              <span>Lowest total fee. Best if you want to secure admission immediately.</span>
+            </div>
+            <p class="pricing-support"><span>30% scholarship</span><strong>&#8358;235,550</strong></p>
+            <div class="pricing-card-action">
+              <a href="#apply">Choose one-time payment</a>
+            </div>
+          </article>
+          <article class="pricing-card pricing-card-alt reveal" data-payment-card>
+            <div class="pricing-card-top">
+              <p>2 installments</p>
+              <div class="pricing-price-row">
+                <h3>&#8358;352,325</h3>
+              </div>
+              <span>Split your fee into two payments while keeping full programme access.</span>
+            </div>
+            <p class="pricing-support"><span>30% scholarship</span><strong>&#8358;247,328</strong></p>
+            <div class="pricing-card-action">
+              <a href="#apply">Choose 2 installments</a>
+            </div>
+          </article>
+          <article class="pricing-card pricing-card-third reveal" data-payment-card>
+            <div class="pricing-card-top">
+              <p>3 installments</p>
+              <div class="pricing-price-row">
+                <h3>&#8358;370,150</h3>
+              </div>
+              <span>More flexibility across three payments, with a higher total fee.</span>
+            </div>
+            <p class="pricing-support"><span>30% scholarship</span><strong>&#8358;259,105</strong></p>
+            <div class="pricing-card-action">
+              <a href="#apply">Choose 3 installments</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="field-proof" aria-label="Photographer testimonials">
+        <div class="proof-heading reveal">
+          <span class="proof-kicker">Testimonials</span>
+          <p>What others are saying about Bedge Pictures.</p>
+        </div>
+
+        <div class="proof-editorial">
+          <div class="proof-frame-wrap">
+            <figure class="proof-frame reveal">
+              <img loading="lazy" decoding="async" class="proof-frame-image is-active" data-proof-image="0" src="/public/assets/credibility/chivido-proof.jpg" alt="" />
+              <img loading="lazy" decoding="async" class="proof-frame-image" data-proof-image="1" src="/public/assets/credibility/dodos-proof.jpg" alt="" />
+              <img loading="lazy" decoding="async" class="proof-frame-image" data-proof-image="2" src="/public/assets/credibility/ifedayo-proof.jpg" alt="" />
+              <img loading="lazy" decoding="async" class="proof-frame-image" data-proof-image="3" src="/public/assets/credibility/adama-proof.jpg" alt="" />
+              <img loading="lazy" decoding="async" class="proof-frame-image" data-proof-image="4" src="/public/assets/credibility/emmanuel-proof.jpg" alt="" />
+              <img loading="lazy" decoding="async" class="proof-frame-image" data-proof-image="5" src="/public/assets/credibility/adekani-story.jpg" alt="" />
+            </figure>
+          </div>
+          <div class="proof-mobile-divider" aria-hidden="true"></div>
+
+          <div class="proof-quotes">
+            <article class="proof-quote reveal is-active" data-proof="0">
+              <blockquote>The Business of Photography feels like the missing business layer photographers need after they learn how to shoot. It connects taste, pricing, client trust, and delivery in one serious path.</blockquote>
+              <div class="proof-person">
+                <img loading="lazy" decoding="async" src="/public/assets/credibility/chivido-proof.jpg" alt="" />
+                <span><strong>Tara Akinyele</strong><small>Wedding Photographer, Lagos</small></span>
+              </div>
+            </article>
+
+            <article class="proof-quote reveal" data-proof="1">
+              <blockquote>The strongest thing here is the way it treats photography as a business, not a hobby. A photographer can leave with sharper work and a cleaner offer.</blockquote>
+              <div class="proof-person">
+                <img loading="lazy" decoding="async" src="/public/assets/credibility/dodos-proof.jpg" alt="" />
+                <span><strong>Daniel Okoye</strong><small>Portrait Photographer, Abuja</small></span>
+              </div>
+            </article>
+
+            <article class="proof-quote reveal" data-proof="2">
+              <blockquote>Most photographers struggle because their value is not packaged clearly. This programme gives structure to the creative work, especially for pricing and client conversations.</blockquote>
+              <div class="proof-person">
+                <img loading="lazy" decoding="async" src="/public/assets/credibility/ifedayo-proof.jpg" alt="" />
+                <span><strong>Amaka Obi</strong><small>Studio Founder, Port Harcourt</small></span>
+              </div>
+            </article>
+
+            <article class="proof-quote reveal" data-proof="3">
+              <blockquote>Wedding photography is pressure. The training speaks to the real day: timing, light, family movement, emotion, and final delivery.</blockquote>
+              <div class="proof-person">
+                <img loading="lazy" decoding="async" src="/public/assets/credibility/adama-proof.jpg" alt="" />
+                <span><strong>Kunle Martins</strong><small>Event Photographer, Ibadan</small></span>
+              </div>
+            </article>
+
+            <article class="proof-quote reveal" data-proof="4">
+              <blockquote>This is the kind of programme that can help a talented photographer become easier to trust, easier to book, and easier to recommend.</blockquote>
+              <div class="proof-person">
+                <img loading="lazy" decoding="async" src="/public/assets/credibility/emmanuel-proof.jpg" alt="" />
+                <span><strong>Nosa Ede</strong><small>Creative Director, Benin City</small></span>
+              </div>
+            </article>
+
+            <article class="proof-quote reveal" data-proof="5">
+              <blockquote>The value is not only in better pictures. It is in helping photographers build a process clients can feel before, during, and after the shoot.</blockquote>
+              <div class="proof-person">
+                <img loading="lazy" decoding="async" src="/public/assets/credibility/adekani-story.jpg" alt="" />
+                <span><strong>Fisayo Bello</strong><small>Wedding Filmmaker, Lagos</small></span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="proof-filmstrip reveal" aria-hidden="true">
+          <img loading="lazy" decoding="async" src="/public/assets/story-scroll/01-ifedayo.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/story-scroll/02-ndidi.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/story-scroll/03-davido-chi.webp" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/story-scroll/04-technical.webp" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/davido-chi-strip.webp" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/ndidi-1-strip.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/desmond-strip.webp" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/test-strip.webp" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/ndidi-3-strip.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/koye-gallery.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/akah-gallery.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/emmanuel-gallery.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/wilfred-gallery.png" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/bedge-official-gallery.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/chivido-hero.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/ifedayo-hero.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/adama-hero.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/dodos-story.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/akah-story.jpg" alt="" />
+          <img loading="lazy" decoding="async" src="/public/assets/credibility/wilfred-story.png" alt="" />
+        </div>
+      </section>
+
+      <section class="calculator section old-pricing" hidden>
+        <h2 class="reveal">Choose the payment path that fits your business stage.</h2>
+        <p class="reveal">Everything you need to learn, structure, price, sell, and deliver better photography work in one programme.</p>
+        <div class="calc-box reveal">
+          <div class="fee-panel pricing-panel">
+            <div class="fee-field peach-field">
+              <span>Full programme price</span>
+              <strong>₦350,000</strong>
+            </div>
+            <div class="fee-line">
+              <i></i>
+              <span>What is included</span>
+              <strong>6 modules, Canon technical training, Bedge sessions, gear access, templates</strong>
+            </div>
+            <div class="fee-field mint-field">
+              <span>Payment / financing options</span>
+              <strong>Pay once, split payment, or apply for partner financing</strong>
+            </div>
+            <div class="pricing-actions">
+              <a class="button dark" href="#apply">Apply for the programme</a>
+              <a class="pricing-link" href="#faq">Read FAQs</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="facilitator-cover" aria-label="Meet your facilitator">
+        <div class="facilitator-heading reveal">
+          <p>Meet <span class="bedge-signature-word" aria-label="Bedge"><img loading="lazy" decoding="async" src="/public/assets/partners/bedge-transparent.png" alt="" aria-hidden="true" /></span></p>
+          <span class="facilitator-subtitle">You will learn directly from Africa's most successful wedding photographer.</span>
+        </div>
+
+        <div class="cover-stage reveal">
+          <img loading="lazy" decoding="async" src="/public/assets/photos/bedge-facilitator.jpg" alt="Bedge, Business of Photography facilitator" />
+          <div class="cover-name">
+            <strong>Emeka Amafor</strong>
+            <span>Bedge Pictures</span>
+          </div>
+        </div>
+
+        <aside class="bio-panel" id="bedge-bio">
+          <div class="bio-copy">
+            <p>Emeka Amafor, known professionally as Bedge, is the photographer behind Bedge Pictures and one of the creative voices leading The Business of Photography programme.</p>
+            <p>His work sits at the intersection of wedding storytelling, portrait direction, visual taste, and client experience. For students, the value is not only that he can create strong images, but that he understands the pressure behind creating them consistently for real clients.</p>
+            <p class="bio-extra">Students learn from someone who understands how a beautiful image becomes a reliable client experience: planning, communication, direction, delivery, pricing, and the confidence to show up prepared when the pressure is real.</p>
+            <p class="bio-extra">That is what makes this section important: Bedge is not presented as hype. He is presented as proof that a photographer can build taste, process, and a business strong enough to carry real wedding work.</p>
+            <p class="bio-extra">For photographers joining the programme, the lesson is practical: strong work needs taste, but it also needs systems, delivery discipline, pricing confidence, and the ability to protect the client experience from inquiry to final gallery.</p>
+            <p class="bio-extra">Inside the programme, Bedge helps photographers think beyond a single frame. Students learn how to plan a shoot, direct people, manage wedding-day pressure, build confidence around pricing, and present their work with the kind of clarity that attracts better clients.</p>
+            <p class="bio-extra">The goal is simple: help photographers build the business, discipline, and creative judgement behind a camera that can actually pay them properly.</p>
+            <p class="bio-extra">That is why the facilitator section is built around both creative judgement and business discipline. Students are not only watching a photographer work; they are learning how to think through the decisions behind the work.</p>
+            <p class="bio-extra">From planning the frame to communicating value, the focus is on helping photographers build a process they can repeat when real clients, real pressure, and real money are involved.</p>
+          </div>
+          <button class="bio-toggle" type="button" aria-expanded="false" aria-controls="bedge-bio" aria-label="Read full bio">
+            <span>Read full bio</span>
+            <i aria-hidden="true"></i>
+          </button>
+          <button class="bio-collapse" type="button" aria-label="Show short bio">
+            <i aria-hidden="true"></i>
+          </button>
+        </aside>
+      </section>
+
+      <section id="faq" class="faq section">
+        <h2 class="reveal">Frequently Asked Questions.</h2>
+        <div class="faq-grid">
+          <div class="faq-column">
+            <details class="reveal"><summary>Who is teaching The Business of Photography?</summary><p>The Business of Photography is taught by Bedge, one of Africa's leading wedding photographers and creative business builders. You will also learn from selected industry leaders across business, client management, technical skills, and creative execution.</p></details>
+            <details class="reveal"><summary>Is this only for wedding photographers?</summary><p>No. The programme is for photographers across different niches, including weddings, portraits, events, products, fashion, lifestyle, and commercial work.</p></details>
+            <details class="reveal"><summary>Is it only for photographers?</summary><p>It is mainly built for photographers, but videographers, content creators, and other visual creatives who work with clients on paid projects can also benefit.</p></details>
+            <details class="reveal"><summary>I am just starting out. Can I still join?</summary><p>Yes, if you are serious about photography as more than a hobby and want to move from taking pictures to building a real photography business.</p></details>
+            <details class="reveal"><summary>I do not have professional gear yet. Can I join?</summary><p>Yes. You do not need the best camera before joining, and the programme will help you understand what gear matters and what to prioritise.</p></details>
+            <details class="reveal"><summary>Is this a live training or a recorded course?</summary><p>It is a mix of both: pre-recorded lessons led by Bedge and live online sessions where you can ask questions, get feedback, and learn from industry leaders.</p></details>
+            <details class="reveal"><summary>Is there any physical training?</summary><p>Yes. There will be a physical technical photography training session led by Canon, and it will also be streamed online for students who cannot attend physically.</p></details>
+            <details class="reveal"><summary>What if I am not in Lagos?</summary><p>You can still join. The main programme is online, and the Canon physical training will also be streamed for students outside Lagos.</p></details>
+          </div>
+          <div class="faq-column">
+            <details class="reveal"><summary>What if I am not in Nigeria?</summary><p>You can join from outside Nigeria and access the recorded lessons and live sessions online. Local gear financing or partner benefits may vary by country.</p></details>
+            <details class="reveal"><summary>How does the programme work?</summary><p>After joining, you get access to the community, learning platform, class modules, and support from a success officer who guides you through the programme.</p></details>
+            <details class="reveal"><summary>Can I pay in installments?</summary><p>Yes. Installment options are available, and the available payment plans are shown in the payment section.</p></details>
+            <details class="reveal"><summary>Can I apply for a scholarship?</summary><p>Scholarships are only available to people who attended our webinar and meet the scholarship requirements.</p></details>
+            <details class="reveal"><summary>Can I pay in another currency?</summary><p>Yes. International students can pay in another currency, depending on the payment options available at checkout.</p></details>
+            <details class="reveal"><summary>Will I learn how to price my services?</summary><p>Yes. You will learn how to package your work, communicate your value, and price with more confidence.</p></details>
+            <details class="reveal"><summary>Will this help me get better clients?</summary><p>Yes. The programme covers positioning, portfolio proof, client communication, offer structure, and business systems.</p></details>
+            <details class="reveal"><summary>How long is the programme?</summary><p>The Business of Photography runs for 8 weeks with recorded lessons, live training, assignments, and technical support sessions.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="partners-section" aria-label="Programme partners">
+        <div class="partners-shell reveal">
+          <p class="partners-eyebrow">Brought to you by</p>
+          <div class="partner-logo-grid">
+            <figure class="partner-logo-card">
+              <img loading="eager" decoding="async" fetchpriority="high" src="/public/assets/partners/koppoh-transparent.png" alt="Koppoh" />
+            </figure>
+            <figure class="partner-logo-card">
+              <img loading="lazy" decoding="async" src="/public/assets/partners/bedge-transparent.png" alt="Bedge Pictures" />
+            </figure>
+            <figure class="partner-logo-card">
+              <img loading="lazy" decoding="async" src="/public/assets/partners/canon-transparent.png" alt="Canon" />
+            </figure>
+            <figure class="partner-logo-card">
+              <img loading="lazy" decoding="async" src="/public/assets/partners/credit-direct-transparent.png" alt="Credit Direct" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="apply" class="start section">
+        <h2 class="reveal">Ready to join The Business of Photography?</h2>
+        <p class="reveal">Secure your place in the programme and choose the payment plan that works for your photography business.</p>
+        <form class="signup reveal">
+          <button type="button">Join Now</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="logo" href="#home" aria-label="Koppoh">
+        <img loading="eager" decoding="async" fetchpriority="high" src="/public/assets/partners/koppoh-transparent.png" alt="Koppoh" />
+      </a>
+      <nav>
+        <a href="#what-you-get">What You Get</a>
+        <a href="#portfolio">Modules</a>
+        <a href="#pricing">Payment Plan</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="socials" aria-label="Social media links">
+        <a href="#" aria-label="Koppoh on X">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M12.6.75h2.454L9.694 6.892 16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.6.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/></svg>
+        </a>
+        <a href="#" aria-label="Koppoh on Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.4 3h9.2A4.4 4.4 0 0 1 21 7.4v9.2a4.4 4.4 0 0 1-4.4 4.4H7.4A4.4 4.4 0 0 1 3 16.6V7.4A4.4 4.4 0 0 1 7.4 3Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 8.2a3.8 3.8 0 1 0 0 7.6 3.8 3.8 0 0 0 0-7.6Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.1"/></svg>
+        </a>
+        <a href="#" aria-label="Koppoh on Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 8h3V4h-3c-3.31 0-6 2.69-6 6v2H6v4h3v8h4v-8h3.2l.8-4h-4v-2c0-1.1.9-2 2-2Z"/></svg>
+        </a>
+        <a href="#" aria-label="Koppoh on TikTok">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M9 0h1.98c.14.72.54 1.62 1.24 2.51C12.9 3.39 13.8 4 15 4v2c-1.75 0-3.07-.81-4-1.83V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/></svg>
+        </a>
+        <a href="#" aria-label="Koppoh on LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 20H3.6V8.9h3.6V20ZM5.4 7.4a2.08 2.08 0 1 1 0-4.16 2.08 2.08 0 0 1 0 4.16ZM20.4 20h-3.6v-5.4c0-1.29-.03-2.94-1.8-2.94-1.8 0-2.08 1.4-2.08 2.85V20h-3.6V8.9h3.46v1.52h.05c.48-.91 1.66-1.87 3.41-1.87 3.65 0 4.16 2.39 4.16 5.5V20Z"/></svg>
+        </a>
+      </div>
+      <p>&copy;2026 Koppoh. All rights reserved.<br />Lagos, Nigeria</p>
+    </footer>
+
+    <script src="./src/app.js?v=50" type="module"></script>
+  </body>
+</html>

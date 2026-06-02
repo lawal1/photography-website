@@ -1,0 +1,9 @@
+{
+  "name": "bop-website-redesign",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "py -m http.server 5173 --bind 127.0.0.1"
+  }
+}
