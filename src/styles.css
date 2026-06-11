@@ -1394,6 +1394,16 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
   color: #080808;
   border: 1px solid rgba(8,8,8,0.22);
 }
+
+@media (min-width: 921px) {
+  .pricing-card {
+    min-height: 268px;
+  }
+
+  .pricing-card-action {
+    margin-top: 14px;
+  }
+}
 .field-proof {
   position: relative;
   min-height: 100svh;
@@ -2680,22 +2690,56 @@ details p {
     opacity: 0.58;
   }
   .proof-quotes {
-    gap: 12px;
-    grid-auto-rows: 390px;
+    gap: 8px;
+    grid-auto-rows: auto;
     padding-bottom: 18px;
   }
   .proof-quote {
-    min-height: 0;
-    height: 390px;
-    block-size: 390px;
-    padding: 28px 0 28px 24px;
+    min-height: auto;
+    height: auto;
+    block-size: auto;
+    padding: 24px 0 22px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-content: start;
+    overflow: visible;
   }
   .proof-quote.is-active {
     transform: none;
   }
   .proof-quote blockquote {
-    font-size: clamp(20px, 6vw, 27px);
-    line-height: 1.38;
+    align-self: stretch;
+    margin-bottom: 18px;
+    font-size: clamp(17px, 5vw, 20px);
+    line-height: 1.32;
+    padding-left: 28px;
+  }
+  .proof-quote blockquote::before {
+    top: -8px;
+    font-size: 46px;
+  }
+  .proof-person {
+    min-height: 48px;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+  }
+  .proof-person img {
+    flex: 0 0 48px;
+    width: 48px;
+    height: 48px;
+  }
+  .proof-person span {
+    min-width: 0;
+    padding-top: 2px;
+    gap: 4px;
+  }
+  .proof-person strong {
+    line-height: 1.08;
+  }
+  .proof-person small {
+    line-height: 1.28;
   }
   .proof-filmstrip {
     margin-top: 0;
